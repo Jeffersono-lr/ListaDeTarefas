@@ -1,0 +1,22 @@
+.tarefa{
+    width: 33%;
+    height: 150px;
+    display: flex;
+    margin: 1px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    color: aliceblue;
+}
+
+.linha-lateral{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    
+}
+
+.tarefa.concluido{
+     background-color: aqua;
+     color: black;
+}
